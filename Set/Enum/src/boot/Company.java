@@ -5,7 +5,7 @@ public class Company {
 	public String ceoname;
 	public int since;
 	public String adress;
-	
+
 	public Company() {
 		System.out.println("no arg constructor");
 	}
@@ -19,22 +19,27 @@ public class Company {
 	}
 
 	public void setsince(int since) {
-	this.since=since;
+		this.since = since;
 	}
-public void setadress(String adress) {
-	this.adress=adress;
-}
 
+	public void setadress(String adress) {
+		this.adress = adress;
+	}
 
-	public void display () {
+	public void display() {
 		System.out.println("details about Company");
 		System.out.println("name:" + name);
 		System.out.println("ceoname:" + ceoname);
 		System.out.println("since:" + since);
-		System.out.println("adress:"+adress);
-	
-}
+		System.out.println("adress:" + adress);
 
+	}
+
+	public static void setCompany(Company company) {
+		// TODO Auto-generated method stub
+		
 	
+		
+	}
 
 }
