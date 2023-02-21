@@ -21,6 +21,7 @@ public class MallRunner {
 		company.display();
 
 	
+		Object Degree;
 		Degree degree = new Degree();
 		Degree.setDegree(degree);
 		degree.display();

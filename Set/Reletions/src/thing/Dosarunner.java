@@ -10,6 +10,7 @@ public class Dosarunner {
 		Dosa dosa = new Dosa();
 		@SuppressWarnings("unused")
 		Breakfast breakfast = new Breakfast();
+		@SuppressWarnings("unused")
 		Breakfast dosa1 = new Breakfast();
 
 	}
