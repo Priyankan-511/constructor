@@ -6,7 +6,7 @@ public class AlcoholRunner {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
 		Alcohol alcohol = new Alcohol();
 		System.out.println(alcohol.toString());
 
@@ -16,8 +16,6 @@ public class AlcoholRunner {
 		System.out.println(alcohol1.toString());
 
 		System.out.println(alcohol1.equals(alcohol1));
-
-
 
 	}
 

@@ -1,4 +1,5 @@
 package boot;
+
 import thing.Fish;
 
 public class FishRunner {
@@ -14,7 +15,6 @@ public class FishRunner {
 		System.out.println(fish1.toString());
 
 		System.out.println(fish1.equals(fish1));
-
 
 	}
 

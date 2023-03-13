@@ -10,11 +10,11 @@ public class Cake {
 		System.out.println("no argument constructor");
 	}
 
-	public Cake(String flavore, String weight, String shape,int price) {
+	public Cake(String flavore, String weight, String shape, int price) {
 		this.flavore = flavore;
 		this.weight = weight;
 		this.shape = shape;
-		this.price=price;
+		this.price = price;
 	}
 
 	public boolean equals(Object arg) {
@@ -26,7 +26,8 @@ public class Cake {
 				Cake casted = (Cake) arg;
 				Cake left = this;
 				Cake right = casted;
-				if (left.flavore.equals(right.flavore) && left.weight == (right.weight) && left.shape.equals(right.shape) &&left.price==(right.price)) {
+				if (left.flavore.equals(right.flavore) && left.weight == (right.weight)
+						&& left.shape.equals(right.shape) && left.price == (right.price)) {
 					System.out.println("left is equal to right");
 					return true;
 				} else {
@@ -45,10 +46,9 @@ public class Cake {
 
 	public String toString() {
 		{
-			return " [flavore: " + this.flavore + " ] [weight:" + this.weight + " ] [shape:" + this.shape + "] [price:" + this.price+"]";
+			return " [flavore: " + this.flavore + " ] [weight:" + this.weight + " ] [shape:" + this.shape + "] [price:"
+					+ this.price + "]";
 		}
 	}
 }
-
-
-
+    
