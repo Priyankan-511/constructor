@@ -6,6 +6,7 @@ import com.xworkx.weapon.service.WeaponService;
 
 public class WeaponRunner {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		WeaponDTO weaponDTO = new WeaponDTO();
 		weaponDTO.setId(12);
